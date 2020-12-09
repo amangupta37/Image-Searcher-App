@@ -1,6 +1,6 @@
 const btn = document.getElementById("clk");
 const input = document.getElementById("inpt-box");
-const output = document.getElementById("gallery-box");
+const output = document.getElementById("box");
 
 const url = "https://api.unsplash.com/search/photos?query=";
 
@@ -21,9 +21,10 @@ function recivedata(datain){
      .then(response => response.json())
      .then(json => {
       json.results.forEach(photo => {
+        
+        output.innerHTML = `<img src=${photo.urls.regular} alt="cat" />`
 
-        document.getElementById("newpic").src=photo.urls.regular;
-         
       });
    })
- });
+ })
+
