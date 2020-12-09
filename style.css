@@ -61,7 +61,7 @@ h1{
     width: 37%;
     height: 4.5rem;
 }
-#btn-click{
+#clk{
     position: relative;
    
     width: 100%;
@@ -83,7 +83,7 @@ h1{
 img{
     position: relative;
     top:2rem;
-    width: 22.2rem;
+    width: 22rem;
     height: 15.8rem;
    
 }
