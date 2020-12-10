@@ -3,13 +3,19 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #000;
 
+}
 #header-box{
     
     margin: 0 auto;
     width: 100%;
-    height: 20rem;
-    background-color: darkred;
+    height: 30rem;
+  background-color: #000;
+    clip-path: polygon(0 0, 100% 0%, 100% 57%, 0 78%);
+
+
 }
 h1{
     
@@ -18,29 +24,48 @@ h1{
     top:5rem;
     font-family: monospace;
     font-size: 4rem;
+    color:rgb(28, 235, 123);
     
 
 }
+
+#bg-img{
+    background: url(/bgdev.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    height: 30rem;
+    position: relative;
+    bottom:6.5rem;
+}
 #form-box{
+    box-sizing: border-box;
     margin: 0 auto;
     width: 100%;
-    height: 25rem;
-    background-color: #000;
+    height: 29.9rem;
     position: relative;
-    top:3rem;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    opacity: 0.8;
+   
 }
 #styl-inpt{
     margin: 0 auto;
     position: relative;
-    top:6.5rem;
+    top:1rem;
     border: none;
-    width: 90%;
+    width: 97%;
     height: 10rem;
     
 }
 #inpt-box{
+    box-sizing: border-box;
     position: relative;
-   
     top:3rem;
     width: 100%;
     height: 3.5rem;
@@ -55,8 +80,7 @@ h1{
 
 #btn{
     position: relative;
-    top:5rem;
-
+   
     margin:0 auto;
     width: 37%;
     height: 4.5rem;
@@ -75,7 +99,7 @@ h1{
 }
 #box{
     position: relative;
-    top:4rem;
+    bottom:08rem;
     width: 100%;
     height: 20rem;
  
@@ -96,14 +120,17 @@ img{
     font-family:monospace;
     font-size: x-large;
     text-align: center;
+    color: red;
 }
 #load-size{
     position: relative;
-    top:7rem;
-    left:0.5rem;
+    top:5rem;
+    left:1rem;
     width: 3rem;
     height: 3rem;
-
+    z-index: 5;
+    background-color: white;
+    border-radius: 50%;
 }
 #load-size:hover{
     animation: spin 0.1s linear infinite;
@@ -111,5 +138,53 @@ img{
 @keyframes spin {
     0% { transform: rotate(0deg); }
     50% { transform: rotate(-90deg); }
+    100% { transform: rotate(360deg); }
+  }
+ 
+  #load-text{
+      color:white;
+      position: relative;
+      top:2.2rem;
+      margin-left: 5rem;
+      font-size: 2rem;
+      font-family: monospace;
+     
+  }
+#pre-load{
+    width: 45%;
+    height: 12rem;
+   margin: auto;
+   z-index: -1;
+}
+#n-load{
+    width:100%;
+    height: 9rem;
+    z-index: -1;
+   
+}
+
+#icon{
+    box-sizing: border-box;
+    position: relative;
+    width: 15rem;
+    height:5rem;
+    left: 3rem;
+   
+}
+
+#chm{
+
+    width:6rem;
+    height: 6rem;
+    border-radius: 50%;
+    position: relative;
+    top:5.5rem;
+    left:8rem;
+    animation: rot 0.5s linear infinite ;
+}
+@keyframes rot {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(90deg); }
+   
     100% { transform: rotate(360deg); }
   }
