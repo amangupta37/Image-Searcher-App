@@ -21,11 +21,11 @@ function recivedata(datain){
     // output.innerText=input.value;
     if(inputdata!="")
     {
-    wmsg.innerText="Wait Fetching your result it will display here 👇  !!!";
+    wmsg.innerText="Wait 🔄 Fetching your Result It will display here 👇  !!!";
     }
     else
     {
-      alert("enter data");
+      alert("Enter a Valid Input");
      
     }
      fetch(recivedata(inputdata))
