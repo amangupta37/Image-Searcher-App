@@ -4,7 +4,7 @@ See this project live :- [click here](https://image-search-app-amangupta.netlify
 
 ## Mobile View
 
-![img](/demo2.gif)
+![img](/demo2.mp4)
 
 
 ## Desktop View
