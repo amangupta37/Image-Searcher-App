@@ -2,10 +2,10 @@
 
 See this project live :- [click here](https://image-search-app-amangupta.netlify.app/)
 
-## Mobile View
+## Viewport 360p
 
 ![img](/demo2.mp4)
 
 
-## Desktop View
+## Viewport 1080p
 ![img](/demo.gif)
