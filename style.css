@@ -21,7 +21,7 @@ h1{
     
     text-align: center;
     position: relative;
-    top:5rem;
+    top:2rem;
     font-family: monospace;
     font-size: 4rem;
     color:rgb(28, 235, 123);
@@ -178,7 +178,7 @@ img{
     height: 6rem;
     border-radius: 50%;
     position: relative;
-    top:5.5rem;
+    top:2.5rem;
     left:8rem;
     animation: rot 0.5s linear infinite ;
 }
